@@ -133,7 +133,8 @@ public class PauseMenu : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         currentPanel = 0;
-        EventSystem.current.SetSelectedGameObject(panels[currentPanel].transform.GetChild(1).gameObject);
+        //print(panels[currentPanel].transform.GetChild(1).transform.GetChild(0).gameObject);
+        //EventSystem.current.SetSelectedGameObject(panels[currentPanel].transform.GetChild(1).transform.GetChild(0).gameObject);
     }
     public void ResumeGame()
     {
@@ -150,23 +151,23 @@ public class PauseMenu : MonoBehaviour
     public void ControlSettings()
     {
         SwitchPanels(1);
-        EventSystem.current.SetSelectedGameObject(panels[currentPanel].transform.GetChild(0).gameObject);
+        //EventSystem.current.SetSelectedGameObject(panels[currentPanel].transform.GetChild(0).gameObject);
     }
 
     public void GeneralSettings()
     {
         SwitchPanels(2);
-        EventSystem.current.SetSelectedGameObject(panels[currentPanel].transform.GetChild(0).gameObject);
+        //EventSystem.current.SetSelectedGameObject(panels[currentPanel].transform.GetChild(0).gameObject);
     }
     public void GoToMainMenu()
     {
         SwitchPanels(3);
-        EventSystem.current.SetSelectedGameObject(panels[currentPanel].transform.GetChild(0).gameObject);
+        //EventSystem.current.SetSelectedGameObject(panels[currentPanel].transform.GetChild(0).gameObject);
     }
     public void MainMenuPromptCancel()
     {
         SwitchPanels(0);
-        EventSystem.current.SetSelectedGameObject(panels[currentPanel].transform.GetChild(0).gameObject);
+        //EventSystem.current.SetSelectedGameObject(panels[currentPanel].transform.GetChild(0).gameObject);
     }
     public void MainMenuPromptConfirm()
     {

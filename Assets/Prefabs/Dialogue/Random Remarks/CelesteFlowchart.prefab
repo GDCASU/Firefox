@@ -53,7 +53,7 @@ GameObject:
   - component: {fileID: -7262017242784070085}
   - component: {fileID: -8256019299168350383}
   m_Layer: 0
-  m_Name: FeebeeFlowchart
+  m_Name: CelesteFlowchart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86,18 +86,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -410.30673, y: 203.80832}
+  scrollPos: {x: 83.18474, y: -31.477236}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 424
-  zoom: 0.9100001
+  blockViewHeight: 514.8
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: -7243541577956726307}
   selectedCommands: []
   variables: []
   description: 
@@ -126,7 +127,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 54.82834
     y: 320.54883
-    width: 137.91208
+    width: 141.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -308,11 +309,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 56.82834
     y: 144.54884
-    width: 132.63736
+    width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 9
+  itemId: 66
   blockName: Entering Stage
   description: Random remarks for entering stage
   eventHandler: {fileID: -6711581719989021757}
@@ -491,11 +492,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 218.82834
     y: 144.54884
-    width: 122.96703
+    width: 125.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 9
+  itemId: 67
   blockName: Exiting Stage
   description: Random remarks for exiting stage
   eventHandler: {fileID: -8286094397942143075}
@@ -672,11 +673,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 230.82834
     y: 323.54883
-    width: 161.64835
+    width: 166
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 9
+  itemId: 68
   blockName: Collecting Pick-Ups
   description: Random remarks for collecting pick-ups
   eventHandler: {fileID: 2277531252563573356}
@@ -852,11 +853,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 437.82834
     y: 323.54883
-    width: 154.61539
+    width: 158
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 9
+  itemId: 69
   blockName: Defeating Enemies
   description: Random remarks for defeating enemies
   eventHandler: {fileID: 3992477306142819581}
@@ -1033,11 +1034,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 649.82837
     y: 327.54883
-    width: 113.2967
+    width: 114.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 9
+  itemId: 70
   blockName: Lose Stage
   description: Random remarks for lose stage
   eventHandler: {fileID: -8256019299168350383}

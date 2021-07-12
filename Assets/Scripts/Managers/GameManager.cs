@@ -52,6 +52,18 @@ public class GameManager : MonoBehaviour
         passive = null;
         activeCopilot = null;
     }
+    public void SaveProgress()
+    {
+        List<CopilotData> copilotList = ProfileManager.instance.CurrentProfile.CopilotList;
+        CopilotData activeData = active.GetComponent<CopilotInfo>().copilotData;
+        CopilotData passiveData = passive.GetComponent<CopilotInfo>().copilotData;
+
+        for (int x = 0; x < copilotList.Count; x++)
+        {
+            if (copilotList[x].name == activeData.name) ProfileManager.instance.CurrentProfile.CopilotList[x] = activeData;
+            else if (copilotList[x].name == passiveData.name) ProfileManager.instance.CurrentProfile.CopilotList[x] = passiveData;            
+        }
+    }
 }
 
 public enum TypeOfMechanic

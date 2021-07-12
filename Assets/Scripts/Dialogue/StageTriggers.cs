@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Fungus;
 using Cinemachine;
+using UnityEngine.SceneManagement;
 public class StageTriggers : MonoBehaviour
 {
     public Flowchart flow;
@@ -48,6 +49,7 @@ public class StageTriggers : MonoBehaviour
             endSpeed = playerShip.GetComponent<ShipMovement>().forwardSpeed;
             endDirection = new Vector3(0, 0, endSpeed * Time.deltaTime);
             levelFinished = true;
+            EndLevel();
         }
         if(other.gameObject.CompareTag("Dialogue_Trigger"))
         {
@@ -87,9 +89,17 @@ public class StageTriggers : MonoBehaviour
         }
     }
 
+    //prob will need to use a coroutine later
     private void EndLevel()
     {
         //fly ship away from camera at cart speed (can adjust later)
         playerShip.transform.Translate(endDirection);
+
+        //update currenStage and save profile
+        ProfileManager.instance.CurrentProfile.currentStage += 1;
+        ProfileManager.instance.SaveCurrentProfile();
+
+        //load active pilot VN scene
+        SceneManager.LoadScene(GameManager.singleton.activeCopilot.name);
     }
 }
