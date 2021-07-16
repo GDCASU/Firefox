@@ -79,7 +79,12 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Celeste
+  - Feebee
+  - Mushii
   - Mushroom Stage
+  - Pirate Stage
+  - Water Stage
   BanksToLoad:
   - Master.bank
   - Master.strings.bank

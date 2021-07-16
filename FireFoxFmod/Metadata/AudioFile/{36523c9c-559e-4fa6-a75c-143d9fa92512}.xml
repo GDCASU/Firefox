@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{36523c9c-559e-4fa6-a75c-143d9fa92512}">
+		<property name="assetPath">
+			<value>Space Academy Master.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>94.222471655328803</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3605a824-7062-4e86-a4c9-b6a153423afd}</destination>
+		</relationship>
+	</object>
+</objects>

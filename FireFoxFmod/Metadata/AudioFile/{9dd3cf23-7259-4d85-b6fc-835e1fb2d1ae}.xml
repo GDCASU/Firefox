@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{9dd3cf23-7259-4d85-b6fc-835e1fb2d1ae}">
+		<property name="assetPath">
+			<value>Mushii's Triumph.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>116.72671201814059</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3605a824-7062-4e86-a4c9-b6a153423afd}</destination>
+		</relationship>
+	</object>
+</objects>

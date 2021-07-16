@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{27329f37-8900-405e-b409-06763bf939b1}">
+		<property name="assetPath">
+			<value>Captain Grey Toe-hair Master.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>105.14274376417234</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3605a824-7062-4e86-a4c9-b6a153423afd}</destination>
+		</relationship>
+	</object>
+</objects>
